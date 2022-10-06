@@ -1,0 +1,31 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+"traceEvents":[
+{ "cat":"", "pid":1, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"tundra" } }
+,{ "pid":1, "tid":0, "ts":692517600262, "dur":479, "ph":"X", "name": "DriverCheckDagSignatures",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":692517600742, "dur":10528, "ph":"X", "name": "DriverInitData",  "args": { "durationMS":11, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":692517611338, "dur":19, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"PrepareNodes" }}
+,{ "pid":1, "tid":0, "ts":692517611361, "dur":4920, "ph":"X", "name": "Tundra",  "args": { "durationMS":5, "detail":"RemoveStaleOutputs" }}
+,{ "pid":1, "tid":0, "ts":692517616285, "dur":220, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"BuildQueueInit" }}
+,{ "pid":1, "tid":0, "ts":692649725357, "dur":10684, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":11, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":692649736052, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":692649736061, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":692649736070, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":692649736079, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":692649736081, "dur":14365, "ph":"X", "name": "Tundra",  "args": { "durationMS":14, "detail":"Write AllBuiltNodes" }}
+,{ "pid":1, "tid":1, "ts":692517616892, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"WriteResponseFile artifacts/rsp/14442957004009432531.rsp" }}
+,{ "pid":1, "tid":1, "ts":692517617191, "dur":453, "ph":"X", "name": "WriteResponseFile",  "args": { "durationMS":0, "detail":"artifacts/rsp/14442957004009432531.rsp" }}
+,{ "pid":1, "tid":1, "ts":692517617683, "dur":11375, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":11, "detail":"Il2Cpp C:/Users/hcheb/Desktop/Computer Science/SoundGame/Library/Il2cppBuildCache/WebGL/Native/build.bc" }}
+,{ "pid":1, "tid":1, "ts":692517658894, "dur":132066212, "ph":"X", "name": "Il2Cpp",  "args": { "durationMS":132066, "detail":"C:/Users/hcheb/Desktop/Computer Science/SoundGame/Library/Il2cppBuildCache/WebGL/Native/build.bc" }}
+,{ "pid":1, "tid":1, "ts":692649725333, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"all_tundra_nodes" }}
+,{ "pid":1, "tid":1, "ts":692649725355, "dur":22, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":1, "ts":692649725377, "dur":10594, "ph":"X", "name": "Exiting",  "args": { "durationMS":11, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":2, "ts":692517616930, "dur":132108441, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":132108, "detail":"" }}
+,{ "pid":1, "tid":2, "ts":692649725371, "dur":10498, "ph":"X", "name": "Exiting",  "args": { "durationMS":10, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":3, "ts":692517616918, "dur":132108457, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":132108, "detail":"" }}
+,{ "pid":1, "tid":3, "ts":692649725375, "dur":10493, "ph":"X", "name": "Exiting",  "args": { "durationMS":10, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":4, "ts":692517616984, "dur":132108380, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":132108, "detail":"" }}
+,{ "pid":1, "tid":4, "ts":692649725364, "dur":10529, "ph":"X", "name": "Exiting",  "args": { "durationMS":11, "detail":"BuildLoop" }}
+
+]
+}
